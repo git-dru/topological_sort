@@ -1,0 +1,71 @@
+.container {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.input-group input {
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  line-height: 40px;
+  padding: 0 20px;
+  border-radius: 8px;
+}
+.input-group p {
+  margin: 0 20px;
+}
+.input-group button {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  color: white;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.graph-group {
+  display: flex;
+}
+.graph-data {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.graph-data textarea {
+  padding-bottom: 40px;
+  height: 100%;
+  width: 200px;
+}
+.draw-btn {
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  right: 1px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  cursor: pointer;
+}
+button {
+  background: #0645ad;
+}
+button:hover {
+  background: #032b6d;
+}
